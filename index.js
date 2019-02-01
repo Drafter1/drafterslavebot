@@ -1,7 +1,7 @@
 const discord = require('discord.js-commando');
 const { Client, Attachment, RichEmbed  } = require('discord.js');
 const client = new Client();
-const TOKEN = "NTM4NTUwMjkzMjE0OTIwNzA0.Dy1iqw.mSZhZ3qoj9ijR-FzH-gpOoKvO3A";
+const TOKEN = process.env.BOT_TOKEN;
 const YTDL = require("ytdl-core");
 var bot = new discord.Client();
 var servers = {};
