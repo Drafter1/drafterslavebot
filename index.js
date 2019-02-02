@@ -28,6 +28,9 @@ bot.registry.registerDefaults();
 
 bot.on("ready", function(){
     console.log("Ready!");
+bot.on('ready', () => {
+  bot.user.setGame('Drafters Balls');
+})
 
 }); 
 
